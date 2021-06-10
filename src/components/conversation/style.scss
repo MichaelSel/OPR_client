@@ -1,0 +1,37 @@
+
+.conversation {
+  margin-top: 1rem;
+  padding:1rem;
+  border: 2px black solid;
+  border-radius: 3rem;
+  width: 100%;
+
+  .threadBox-container {
+    width: 100%;
+    .passport {
+      display: inline-block;
+      width:100px;
+    }
+    .message-container {
+      display: inline-block;
+      .message {
+        border: 1px solid black;
+        border-radius: 1em;
+        width:25rem;
+        height:5rem;
+      }
+    }
+  }
+  .thread-container {
+
+
+    .reply-container {
+      margin-left: 3rem;
+
+      .message {
+        padding: 1rem;
+        border-left: 1px solid black;
+      }
+    }
+  }
+}

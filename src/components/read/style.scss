@@ -1,0 +1,32 @@
+
+.convoDock {
+  overflow: hidden;
+
+  .resize-handle {
+    cursor: n-resize;
+    height:5px;
+  }
+
+  .resize-handle.collapsed-true {
+    display: none;
+    height:0;
+  }
+
+  .bar-top {
+    height:30px
+  }
+  .convoContainer {
+    height: 100%;
+    overflow-y: auto;
+  }
+
+  .convoContainer.collapsed-true {
+    height: 0;
+    overflow: hidden;
+  }
+
+}
+
+
+
+
